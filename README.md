@@ -35,4 +35,21 @@ O SW4 está posicionado no canto superior direito da placa, na impressão de **R
 O switch SW6 está localizado à esquerda do logo da Renesas, impresso na placa.
 Na especificação da configuração o SW6 está descrito como "1,2:+" e "3,4:-". Porém os switches em estado inicial estão ao centro; sem indicação de "polaridade" e indicando **P5_0, P5_1, P5_2 e P5_**. Considerando a direção da impressão da porta e supondo que a relação "1,2,3,4" estejam diretamente apontando para "P5_0,...P5_3", a configuração desse switch fica com **P5_0 e P5_1** para baixo e **P5_2 e P5_3** para cima.
 
-TODO: continua do SW7
+### 1.9 - SW7 e SW8
+Esse switch fica ao lado dos jumpers do **CAN0**. O pinout no livreto descreve como "1,2:ON", porém **ON** e **CTS** estão gravados do lado oposto dos números. O mesmo para **SW8**, referente ao CAN1, cujo barramento está posicionado à esquerda de **CAN0**. Os switches estão posicionados em **ON e CTS** para ambos os barramentos CAN.
+
+### 1.10 - SW10
+Esse switch está acima dos jumpers da porta USB/USART. A configuração sugerida está com todos os pinos em ON. 
+- O primeiro switch é para SPI.
+- O segundo é para LED do usuário.
+- O terceiro e quarto são interrupções, nos pinos P2_7 e P0_10, respectivamente. Ao lado esquerdo do switch há um botão de estado **SW9**, que gera a interrupção, colocando os pinos em GND.
+
+### 1.11 - SW11
+Esse é o maior switch, localizado juntamente à porta **LIN**. 
+- A chave 5 não está conectada a nada.
+- A chave 7 está relacionada ao **SENT**, que está *sem jumpers*, portanto, pode-se deixar desligado. A chave de **SENT** ligada requererá jumper em **P3_7** e **P3_8**, ao lado do switches.
+- A chave 8 é **EVCC**.
+
+### 1.12 - SW12
+Sem maior descrição a configuração mínima sugere todos os switches de **SW12** em *OFF*, de modo que todos os pinos devem estar posicionados à esquerda.
+
