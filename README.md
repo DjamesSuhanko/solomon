@@ -6,3 +6,4 @@ INDEX
 ----------------
 
 1 - [Configuração de switches e jumpers (startup)](01-jumper_config.md)
+2 - [Alimentação e comunicação](power.md)
