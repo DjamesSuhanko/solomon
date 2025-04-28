@@ -34,3 +34,5 @@ O SW4 está posicionado no canto superior direito da placa, na impressão de **R
 ### 1.8 - SW6
 O switch SW6 está localizado à esquerda do logo da Renesas, impresso na placa.
 Na especificação da configuração o SW6 está descrito como "1,2:+" e "3,4:-". Porém os switches em estado inicial estão ao centro; sem indicação de "polaridade" e indicando **P5_0, P5_1, P5_2 e P5_**. Considerando a direção da impressão da porta e supondo que a relação "1,2,3,4" estejam diretamente apontando para "P5_0,...P5_3", a configuração desse switch fica com **P5_0 e P5_1** para baixo e **P5_2 e P5_3** para cima.
+
+TODO: continua do SW7
