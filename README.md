@@ -5,7 +5,7 @@ Documentação incremental (e corretiva) da implementação do protocolo LIN usa
 INDEX
 ----------------
 
-1 - [01-jumper_config.md](Configuração de switches e jumpers (startup))
+1 - [Configuração de switches e jumpers (startup)](01-jumper_config.md)
 
 ## 1.0 - Jumping
 A placa precisa ser previamente ajustada, conforme descrito na sequência a seguir. **NÃO LIGUE A PLACA ANTES DE CONFIGURAR OS JUMPERS E SWITCHES**.
