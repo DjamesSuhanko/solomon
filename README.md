@@ -1,5 +1,11 @@
-# solomon
+# Solomon
 Documentação incremental (e corretiva) da implementação do protocolo LIN usando a placa de estudo Renesas RH850 (RL78).
+
+----------------
+INDEX
+----------------
+
+1 - [01-jumper_config.md](Configuração de switches e jumpers (startup))
 
 ## 1.0 - Jumping
 A placa precisa ser previamente ajustada, conforme descrito na sequência a seguir. **NÃO LIGUE A PLACA ANTES DE CONFIGURAR OS JUMPERS E SWITCHES**.
