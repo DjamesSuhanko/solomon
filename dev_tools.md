@@ -6,4 +6,4 @@ Para as MCUs de 32 bits, o recomendado é utilizar a IDE **CS+**, que pode ser b
 ## Setup
 Feche todas as aplicações abertas no computador antes de prosseguir.
 Tendo baixado o instalador, descomprima-o e execute-o. Instale o suporte à RH850, drivers e ferramentas. O processo será relativamente demorado, pois grande parte do conteúdo será baixado durante a instalação.
-
+A instalação precisa ser assistida porque durante o processo será necessário confirmar alguns dos recursos que serão instalados.
