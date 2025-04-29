@@ -14,3 +14,5 @@ INDEX
 2 - [Alimentação e comunicação](power.md)
 
 3 - [Setup do ambiente de desenvolvimento](dev_tools.md)
+
+4 - [Hello World, registradores e datasheet](hello_world.md)
