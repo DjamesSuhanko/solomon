@@ -16,7 +16,9 @@ Ao finalizar a instalação, será executado o _Update Manager_, se o mantiver m
 Nessa janela ainda se encontram informações como ***kind of project***, inicialmente marcado como **Boot Loader for Multi-core CC-RH)**. Escolha a opção **Application for Multi-core(CC-RH)**.
 
 ## Licença
-A versão de avaliação do compilador é válido por 60 dias e certamente possui limitação no tamanho da aplicação compilada também.
+A versão de avaliação do compilador é válido por 60 dias após o primeiro build. Todos os recusos estarão disponíveis durante o período de avaliação.
+Após 60 dias, haverá uma limitação no tamanho do objeto para 256KB e as funções profissionais não estarão disponíveis.
+Algumas otimizações estarão limitadas em modo de avaliação.
 
 ## Teste inicial
 Inclua o header _iodefine.h_ e clique em Build na IDE (fica ao lado direito do "100%" que aparece no menu superior). A compilação deve ocorrer sem erros e algo será exibido em _Output_, semelhante (ou igual) à imagem a seguir.
