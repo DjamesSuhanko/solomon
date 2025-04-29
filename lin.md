@@ -139,3 +139,12 @@ Pode haver mais de uma opção, mas esse é um estudo inicial. Considerando isso
 facilitar o desenvolvimento em microcontroladores como RH850. Ela inclui funções prontas para os periféricos e de fato, poupa **MUITO TEMPO** em desenvolvimento, uma vez que as rotinas que haveriam de ser escritas
 manualmente serão gerenciadas pela biblioteca. Para ter uma ideia, a configuração e execução ficaria em torno de `R_LIN_Init, R_LIN_Transmit` e `R_LIN_Receive`.
 
+A contrapartida é que essa biblioteca é apenas bare-metal (ou seja, não funciona com RTOS). Além disso, ela não recebe mais atualização desde 2014, pois foi dado lugar ao [Smart Configurator](https://www.renesas.com/en/software-tool/cs?downloads-title-filter=Peripheral+Driver+Library&documents-title-filter=smart+configurator#documents). O link aponta para a documentação de migração do **e2** para o **CS+**, que é um PDF.
+
+Há um treinamento da Renesas para o Smart Configurator em vídeo, [nesse link](https://www.renesas.com/en/software-tool/rh850-smart-configurator#tools_support).
+
+[Clique para saber mais sobre o **Smart Configurator**](smartconfigurator.md)
+
+TODO: continua com código gerado com Smart Configurator no CS+
+
+
