@@ -42,3 +42,7 @@ Em comparação às APIs de alto nível - por exemplo, a API do Arduino, a rela�
 |:-------|:-------:|--------:|
 | Modo   | pinMode(pin,OUTPUT) | PMC0.BIT.PMC0_0 = 0 |
 | Estado | digitalWrite(pin, HIGH) | P0.BIT.P0_0 = 1 |
+
+## Alternativa à API do Arduino
+Como pôde ser visto, é mais fácil usar a API do Arduino do que ajustar os registradores de cada pino individualmente, como é padrão nas APIs da Renesas. Porém, ela própria oferece uma ferramenta para facilitar essa configuração, de modo semelhante à API do Arduino. Para a **RH850**, faça o download do [Smart Configurator nesse link](https://www.renesas.com/en/software-tool/rh850-smart-configurator#downloads).
+
