@@ -14,4 +14,9 @@ TODO: colocar a imagem aqui
 
 Nessa janela ainda se encontram informações como ***kind of project***, inicialmente marcado como **Boot Loader for Multi-core CC-RH)**. Escolha a opção **Application for Multi-core(CC-RH)**.
 
-TODO: continua na ide; iniciar um teste de compilação; conectar debbuger/gravador; gravar um teste qualquer
+## Licença
+A versão de avaliação do compilador é válido por 60 dias e certamente possui limitação no tamanho da aplicação compilada também.
+
+## Teste inicial
+Inclua o header _iodefine.h_ e clique em Build na IDE (fica ao lado direito do "100%" que aparece no menu superior). A compilação deve ocorrer sem erros e algo será exibido em _Output_, semelhante (ou igual) à imagem a seguir.
+![purchase_compiler](https://github.com/user-attachments/assets/d5def4d4-7db8-455f-ba1f-53de7317565b)
