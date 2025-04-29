@@ -2,8 +2,9 @@
 
 ## 1.0 - Jumping
 A placa precisa ser previamente ajustada, conforme descrito na sequência a seguir. **NÃO LIGUE A PLACA ANTES DE CONFIGURAR OS JUMPERS E SWITCHES**.
-Nesse vídeo **TODO: FAZER VIDEO E COLOCAR O LINK** os detalhes são claros.
-**TODO: IMAGEM AQUI**
+
+![rh850-photo](https://github.com/user-attachments/assets/6225cfd7-32e5-4d8a-ba87-38dec937dbb8)
+
 
 ### 1.1 - LIN - CN15
 Essa comunicação está localizada no canto superior esquerdo, olhando a placa frontalmente.
