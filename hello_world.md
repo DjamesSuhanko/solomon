@@ -37,4 +37,7 @@ P0.BIT.P0_0 = 1; // Define P0_0 como alto (liga o LED, se anodo no GPIO)
 P0.BIT.P0_0 = 0; // Define P0_0 como baixo (desliga o LED, se anodo no GPIO)
 ```
 
-TODO: seguir com as definições e inserir um código de exemplo
+Em comparação às APIs de alto nível - por exemplo, a API do Arduino, a relação seria algo como:
+| a | b |
+|---|---|
+| 1 | 2 |
