@@ -43,6 +43,47 @@ Em comparação às APIs de alto nível - por exemplo, a API do Arduino, a rela�
 | Modo   | pinMode(pin,OUTPUT) | PMC0.BIT.PMC0_0 = 0 |
 | Estado | digitalWrite(pin, HIGH) | P0.BIT.P0_0 = 1 |
 
+Agora vamos a um exemplo de blink usando como exemplo o pino **P0_0**:
+
+```
+#include <iodefine.h> // Definições de registradores do RH850/C1M-A2
+
+void delay_ms(unsigned int ms) {
+    unsigned int i;
+    for (i = 0; i < ms * 1000; i++) {} // Delay aproximado
+}
+
+int main(void) {
+    // Configuração do pino P0_0 (equivalente a pinMode)
+    PMC0.BIT.PMC0_0 = 0; // Modo GPIO
+    PM0.BIT.PM0_0 = 0;   // Saída (OUTPUT)
+    P0.BIT.P0_0 = 0;     // Inicialmente baixo (LOW)
+
+    while (1) {
+        P0.BIT.P0_0 = 1; // Liga LED (equivalente a digitalWrite HIGH)
+        delay_ms(500);
+        P0.BIT.P0_0 = 0; // Desliga LED (equivalente a digitalWrite LOW)
+        delay_ms(500);
+    }
+    return 0;
+}
+```
+Basicamente, usamos o **registrador de controle do modo de porta PMC (Port Mode Control)**; usamos o **registrador de direção dos pinos PM ("Pin Mode", para analogia com Arduino)**;  usamos o **registrador P0 (Port) para escrever o valor digital no pino (LOW ou HIGH).
+
+| Registrador | Definição | Valor |
+|:-------|:-------:|--------:|
+| PMC   | Port Mode Control - =0 para GPIO ou 1 para uso com algum protocolo de comunicação  | PMC0.BIT.PMC0_0 = 0 |
+| PM | Port/Pin Mode =0 para OUTPUT e =1 para INPUT | PM0.BIT.PM0_0 = 0 |
+| P | Port/Pin - =0 para LOW e =1 para HIGH | PM0.BIT.PM0_0 = 0 |
+
+
 ## Alternativa à API do Arduino
 Como pôde ser visto, é mais fácil usar a API do Arduino do que ajustar os registradores de cada pino individualmente, como é padrão nas APIs da Renesas. Porém, ela própria oferece uma ferramenta para facilitar essa configuração, de modo semelhante à API do Arduino. Para a **RH850**, faça o download do [Smart Configurator nesse link](https://www.renesas.com/en/software-tool/rh850-smart-configurator#downloads).
+
+O Smart Configurator funciona como plugin ou standalone. Gerar o código necessário é simples, mas requer algum estudo para a implementação. Dependendo dos critérios, pode
+ser mais adequado criar manualmente as funções para manipulação dos pinos, definidos em _iodefine.h_. 
+
+## Fóruns
+Certamente será necessário atuar juntamente à comunidade para solução de percalços, adaptações, aprendizado e auxílio na resolução de problemas.
+
 
