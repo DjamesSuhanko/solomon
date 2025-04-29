@@ -20,3 +20,5 @@ A versão de avaliação do compilador é válido por 60 dias e certamente possu
 ## Teste inicial
 Inclua o header _iodefine.h_ e clique em Build na IDE (fica ao lado direito do "100%" que aparece no menu superior). A compilação deve ocorrer sem erros e algo será exibido em _Output_, semelhante (ou igual) à imagem a seguir.
 ![purchase_compiler](https://github.com/user-attachments/assets/d5def4d4-7db8-455f-ba1f-53de7317565b)
+
+Tendo chegado a esse ponto, siga para o item 4 da documentação.
