@@ -10,7 +10,8 @@ A instalação precisa ser assistida porque durante o processo será necessário
 
 Ao finalizar a instalação, será executado o _Update Manager_, se o mantiver marcado. Havendo update a fazer, siga conforme sugerido pela aplicação. Quando estiver concluído, abra a IDE **CS Plus**; vá em _File > New > New Project_. Para essa placa da qual foi gerada essa documentação, o modelo a selecionar é a **RH850/C1M-A2**. Desdobre o respectivo menu e selecione a MCU, conforme mostra a imagem a seguir.
 
-TODO: colocar a imagem aqui
+
+![new_project-board_selection](https://github.com/user-attachments/assets/31eaa2ed-e5cb-4490-ad31-44c61d89abd5)
 
 Nessa janela ainda se encontram informações como ***kind of project***, inicialmente marcado como **Boot Loader for Multi-core CC-RH)**. Escolha a opção **Application for Multi-core(CC-RH)**.
 
