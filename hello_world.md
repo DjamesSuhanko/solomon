@@ -37,7 +37,8 @@ P0.BIT.P0_0 = 1; // Define P0_0 como alto (liga o LED, se anodo no GPIO)
 P0.BIT.P0_0 = 0; // Define P0_0 como baixo (desliga o LED, se anodo no GPIO)
 ```
 
-Em comparação às APIs de alto nível - por exemplo, a API do Arduino, a relação seria algo como:
-| a | b |
-|---|---|
-| 1 | 2 |
+Em comparação às APIs de alto nível - por exemplo, a API do Arduino, a relação de _MODO_ e _DIREÇÃO_ seria algo como:
+| Função | Arduino | Renesas |
+|:-------|:-------:|--------:|
+| Modo   | pinMode(pin,OUTPUT) | PMC0.BIT.PMC0_0 = 0 |
+| Estado | digitalWrite(pin, HIGH) | P0.BIT.P0_0 = 1 |
