@@ -76,6 +76,8 @@ Basicamente, usamos o **registrador de controle do modo de porta PMC (Port Mode 
 | PM | Port/Pin Mode =0 para OUTPUT e =1 para INPUT | PM0.BIT.PM0_0 = 0 |
 | P | Port/Pin - =0 para LOW e =1 para HIGH | PM0.BIT.PM0_0 = 0 |
 
+A relação com Arduino, para quem tiver algum conceito básico:
+![tabela-pins](https://github.com/user-attachments/assets/bdf14761-62c7-41bb-aaa5-01c717bbc5ed)
 
 ## Alternativa à API do Arduino
 Como pôde ser visto, é mais fácil usar a API do Arduino do que ajustar os registradores de cada pino individualmente, como é padrão nas APIs da Renesas. Porém, ela própria oferece uma ferramenta para facilitar essa configuração, de modo semelhante à API do Arduino. Para a **RH850**, faça o download do [Smart Configurator nesse link](https://www.renesas.com/en/software-tool/rh850-smart-configurator#downloads).
@@ -85,5 +87,4 @@ ser mais adequado criar manualmente as funções para manipulação dos pinos, d
 
 ## Fóruns
 Certamente será necessário atuar juntamente à comunidade para solução de percalços, adaptações, aprendizado e auxílio na resolução de problemas.
-
 
