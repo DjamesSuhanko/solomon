@@ -18,3 +18,5 @@ INDEX
 4 - [Hello World, registradores e datasheet](hello_world.md)
 
 5 - [Comunicação LIN](lin.md)
+
+6 - [Smart Configurator](smartConfigurator.md)
