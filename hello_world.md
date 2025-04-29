@@ -2,10 +2,14 @@
 Essa parte da documentação deverá ser incrementada constantemente, conforme a placa for estudada. É fundamental compreender os conceitos utilizados pela Renesas, pois não há uma API para fazer abstração dos recursos de hardware,
 tal qual há para placas que comportam a API do Arduino ou a API da Espressif (para ESP32, por exemplo).
 
+[Documento de desenvolvimento](https://github.com/user-attachments/files/19950791/RH850.pdf)
+
+Outros documentos podem ser [baixados diretamente do site da Renesas](https://www.renesas.com/en/software-tool/cs#documents), após criar uma conta.
+
+
+
 ## Renesas RH850
-As MCUs dessa série são voltadas para aplicações industriais/automotivas, de modo que o controle deve estar absolutamente sob o controle do desenvolvedor. Nesse caso, é fundamental **estudar o datasheet para
-compreender os recursos e suas configurações**. Inicialmente, podemos fazer um blink, que é o famoso "Hello World" da eletrônica digital. Para isso, vamos compreender primeiramente como configurar um pino
-como GPIO.
+As MCUs dessa série são voltadas para aplicações industriais/automotivas, de modo que o controle deve estar absolutamente sob o controle do desenvolvedor. Nesse caso, é fundamental **estudar o datasheet para compreender os recursos e suas configurações**. Inicialmente, podemos fazer um blink, que é o famoso "Hello World" da eletrônica digital. Para isso, vamos compreender primeiramente como configurar um pino como GPIO.
 
 ### Registradores
 Os pinos são controlados por múltiplos registradores em qualquer MCU, porém (como já citado), algumas delas oferecem uma API de alto nível que abstrai as configurações.
