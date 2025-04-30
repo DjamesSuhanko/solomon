@@ -43,4 +43,20 @@ Tem mais de um modo de selecionar o pino. Nessa imagem, a seleção pode ser fei
 
 ![smartconf-05](https://github.com/user-attachments/assets/80a74665-6399-4c38-9eba-8fc606a74ca5)
 
-A seleção pode ser feita também pela aba ***Pin Funciont***. Repare que (propositalmente) a seleção de RX está conflitante, pois ambos **TX** e **RX** estão apontando para o pino **4P** (não confunda com o registrador P4), que é o **pino 12 do registrador 4**. Aparece a mensagem de erro ao lado do título "Function", assim como no respectivo pino, ao lado direito da IDE do Smart Configurator. Esse é um excelente indicativo para recursos conflitantes! Para resolver, troque o pino de um dos dois. Na placa, o barramento LIN está fazendo uso de **P4_12** e **P4_13**.
+A seleção pode ser feita também pela aba ***Pin Function***. Repare que (propositalmente) a seleção de RX está conflitante, pois ambos **TX** e **RX** estão apontando para o pino **4P** (não confunda com o registrador P4), que é o **pino 12 do registrador 4**. Aparece a mensagem de erro ao lado do título "Function", assim como no respectivo pino, ao lado direito da IDE do Smart Configurator. Esse é um excelente indicativo para recursos conflitantes! Para resolver, troque o pino de um dos dois. Na placa, o barramento LIN está fazendo uso de **P4_12** e **P4_13**. Buscando **P4_13** pelo filtro, a referência é o **Pin Number** designado como **3P**. Em suma:
+* **4P** = P4_12
+* **3P** = P4_13
+Não havendo conflito, ainda faltará a configuração de software para o pino, como pode ser visto em ***Configuration Problems***:
+
+![smartconf-07](https://github.com/user-attachments/assets/d08273c0-d227-4c88-b622-082353a2bdee)
+
+
+Nesse modelo estão sendo mostrados 3 barramentos LIN, sendo 0 30, 31 e 31. As configurações foram feitas para o **LIN30**, como pode-se ver na imagem a seguir:
+
+![smartconf-08](https://github.com/user-attachments/assets/ae087fd0-5fc0-4f13-b4df-b1095ecebffd)
+
+TODO: continua....
+
+
+
+
