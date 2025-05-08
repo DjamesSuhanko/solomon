@@ -40,6 +40,7 @@ O EVDD (que é a base de operação) por exemplo, deve ser configurado conforme 
 
 #### System Clocks
 Os clocks de sistema são o próximo passo, divididos em **clock principal de sistema** e ** **clock de subsistema**. Ao configurar oscilador e frequência, configura-se então os clocks dos multiplexadores. 
+Algumas informações a mais sobre o clock podem ser vistas [aqui](clock.md)
 
 #### Components settings
 
