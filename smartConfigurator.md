@@ -33,6 +33,24 @@ Para mudar a seleção da placa ou modelo.
 ### Clocks
 A configuração dos diversos clocks está disponível nessa aba. É necessário ler o datasheet e documentação do Starter Kit para saber como os clocks devem ser configurados.
 
+#### EVDD
+O EVDD (que é a base de operação) por exemplo, deve ser configurado conforme o projeto de hardware. Se já há um projeto, ele servirá como base para reprodução.
+
+![evdd](https://github.com/user-attachments/assets/5fff99e5-05a5-47cc-8321-3784964b02ed)
+
+#### System Clocks
+Os clocks de sistema são o próximo passo, divididos em **clock principal de sistema** e ** **clock de subsistema**. Ao configurar oscilador e frequência, configura-se então os clocks dos multiplexadores. 
+
+#### Components settings
+
+Nessa aba se seleciona os componentes periféricos a habilitar. Normalmente as configurações podem ser mantidas como padrão, MAS, a UART (por exemplo) precisa ser configurada em duas etapas, mantendo os padrões como o nome, mas criando os componentes de **recepção (UART1, por exemplo)** e **transmissão (UART0, por exemplo)**. 
+
+Esse descritivo é apenas para que se entenda que há um cuidado especial para cada recurso, que deve ser planejado e implementado conforme as especificações de projeto.
+
+![components-settings](https://github.com/user-attachments/assets/7483dfad-8989-4928-9c3e-86e9e93d3add)
+
+
+
 ### Components
 Para configurar os periféricos, como DMA, ADC, PWM, timers, UART etc.
 
@@ -55,7 +73,7 @@ Nesse modelo estão sendo mostrados 3 barramentos LIN, sendo 0 30, 31 e 31. As c
 
 ![smartconf-08](https://github.com/user-attachments/assets/ae087fd0-5fc0-4f13-b4df-b1095ecebffd)
 
-TODO: continua....
+
 
 
 
