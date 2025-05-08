@@ -1,7 +1,7 @@
 # SETUP DO AMBIENTE DE DESENVOLVIMENTO
 
-## Download
-Para as MCUs de 32 bits, o recomendado é utilizar a IDE **CS+**, que pode ser baixado direto do site da Renesas. É necessário registrar-se para fazer o download. Entre no site [renesas.com](https://www.renesas.com) para se cadastrar, faça a confirmação do cadastro que é enviada por email e então faça login em sua conta recém criada. Depois, [abra esse link](https://www.renesas.com/en/software-tool/cs). A versão a ser utilizada é a ***CC*** (*"CS+ for CC V8.13.00"*, na data de publicação dessa documentação).
+## Download do CS+
+Para as MCUs de 32 bits, uma das opções é utilizar a IDE **CS+**, que pode ser baixado direto do site da Renesas. É necessário registrar-se para fazer o download. Entre no site [renesas.com](https://www.renesas.com) para se cadastrar, faça a confirmação do cadastro que é enviada por email e então faça login em sua conta recém criada. Depois, [abra esse link](https://www.renesas.com/en/software-tool/cs). A versão a ser utilizada é a ***CC*** (*"CS+ for CC V8.13.00"*, na data de publicação dessa documentação).
 
 No [FAQ do CS Plus](https://en-support.renesas.com/knowledgeBase/category/31407) tem referências importantes que serão usadas à posteriori.
 
@@ -27,4 +27,13 @@ Algumas otimizações estarão limitadas em modo de avaliação.
 Inclua o header _iodefine.h_ e clique em Build na IDE (fica ao lado direito do "100%" que aparece no menu superior). A compilação deve ocorrer sem erros e algo será exibido em _Output_, semelhante (ou igual) à imagem a seguir.
 ![purchase_compiler](https://github.com/user-attachments/assets/d5def4d4-7db8-455f-ba1f-53de7317565b)
 
-Tendo chegado a esse ponto, siga para o item 4 da documentação.
+Tendo chegado a esse ponto, siga para o item 4 da documentação, caso tenha optado por utilizar o CS+.
+
+## Download do e2studio
+É necessário estar logado para fazer o donwload do e2studio, que pode ser encontrado [nesse link](https://www.renesas.com/en/software-tool/e2studio-information-rh850-family#downloads). Após baixar, descomprima o arquivo e execute o instalador. Ele possui versão para Windows e Linux.
+
+O instalador sugere o modo **Lite**. A instalação foi feita no modo sugerido, para esse estudo.
+
+
+
+
