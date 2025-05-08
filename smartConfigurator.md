@@ -49,10 +49,12 @@ Esse descritivo é apenas para que se entenda que há um cuidado especial para c
 
 ![components-settings](https://github.com/user-attachments/assets/7483dfad-8989-4928-9c3e-86e9e93d3add)
 
+Após configurar o recurso, opções adicionais aparecerão na árvore de recurso. No caso da UART, todas as configuraç~eso como stop bit, paridade e baud rate estarão acessíveis na janela, facilitando a configuração do
+recurso sem precisar escrever código manual para setup.
 
 
 ### Components
-Para configurar os periféricos, como DMA, ADC, PWM, timers, UART etc.
+Para configurar os periféricos, como DMA, ADC, PWM, timers, UART etc. Detalhes da UART foram explicados no texto precedente.
 
 ### Pins
 Configuração dos pinos e funções.
@@ -73,8 +75,18 @@ Nesse modelo estão sendo mostrados 3 barramentos LIN, sendo 0 30, 31 e 31. As c
 
 ![smartconf-08](https://github.com/user-attachments/assets/ae087fd0-5fc0-4f13-b4df-b1095ecebffd)
 
+## Assistente de desenvolvimento
+Há uma árvore que auxilia na configuração e certamente será útil durante o desenvolvimento.
 
 
+![dev-assist](https://github.com/user-attachments/assets/dd2c2be0-5feb-44a2-964a-03a8919b5513)
 
 
+Arrastando o exemplo para o palco, o código do recurso (uma chamada de função, por exemplo) será inserida na posição em que foi arrastado. Em **Usage Example**, um exemplo completo de implementação do recurso será exibido,
+incluindo comentários do recurso. 
+
+
+![code_example](https://github.com/user-attachments/assets/9a64d186-a876-473d-a5ee-2c956984a2b4)
+
+> O Smart Configurator pode ser acessado através de plugin, instalado no CS+. Ele aparecerá na árvore do projeto, porém abrirá uma janela à parte.
 
