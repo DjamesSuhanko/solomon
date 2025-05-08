@@ -90,3 +90,11 @@ incluindo comentários do recurso.
 
 > O Smart Configurator pode ser acessado através de plugin, instalado no CS+. Ele aparecerá na árvore do projeto, porém abrirá uma janela à parte.
 
+Do mesmo modo que na interface da IDE **CS+**, também vemos o _Smart Configurator_ no **e2studio**. Ambos apresentam semelhança na apresentação.
+
+A interface apresenta um bom wizard, contendo uma aba chamada de "Smart Browser", com diversas orientações. Ao lado, uma aba de problemas de configuração. 
+No console de saída são geradas as mensagens do compilador. Todas essas abas tem funções importantes e serão exploradas ao longo do estudo.
+
+![ide-estudio-guiada](https://github.com/user-attachments/assets/e4e7c3eb-bd46-40fe-ac94-aa8d50c01760)
+
+...continua...
