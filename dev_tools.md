@@ -34,6 +34,18 @@ Tendo chegado a esse ponto, siga para o item 4 da documentação, caso tenha opt
 
 O instalador sugere o modo **Lite**. A instalação foi feita no modo sugerido, para esse estudo.
 
+O **e2studio** usa o **Eclipse** como editor.
+
+Ambas as IDEs utilizam o toolchain **CC-RH**, permitindo apenas projetos em C, não em C++.
+
+Ao iniciar a IDE, é necessário escolher a criação de um executável para _RH-850_ e escolher adequadamente a placa, como mostra a imagem a seguir.
+
+![board-selection-e2studio](https://github.com/user-attachments/assets/3ed7685a-54e8-42f7-b0d8-b8826f05aab3)
+
+Ambas as IDEs apresentam a mesma aparência, porém o **e2studio** evidencia mais o _Smart Configurator_.
+
+
+
 
 
 
